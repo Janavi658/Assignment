@@ -1,0 +1,10 @@
+CREATE PROCEDURE performProcedure
+AS
+BEGIN
+SET NOCOUNT ON
+ 
+SELECT * FROM 
+ Student_info i
+INNER JOIN Student_Marks M ON i.ID=M.ID
+ 
+END
