@@ -1,0 +1,2 @@
+select * from Student_info 
+cross join Student_Marks
